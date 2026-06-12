@@ -1,0 +1,14 @@
+/home/ubuntu/pacman/bin/Debug/net10.0/pacman
+/home/ubuntu/pacman/bin/Debug/net10.0/pacman.deps.json
+/home/ubuntu/pacman/bin/Debug/net10.0/pacman.runtimeconfig.json
+/home/ubuntu/pacman/bin/Debug/net10.0/pacman.dll
+/home/ubuntu/pacman/bin/Debug/net10.0/pacman.pdb
+/home/ubuntu/pacman/obj/Debug/net10.0/pacman.GeneratedMSBuildEditorConfig.editorconfig
+/home/ubuntu/pacman/obj/Debug/net10.0/pacman.AssemblyInfoInputs.cache
+/home/ubuntu/pacman/obj/Debug/net10.0/pacman.AssemblyInfo.cs
+/home/ubuntu/pacman/obj/Debug/net10.0/pacman.csproj.CoreCompileInputs.cache
+/home/ubuntu/pacman/obj/Debug/net10.0/pacman.dll
+/home/ubuntu/pacman/obj/Debug/net10.0/refint/pacman.dll
+/home/ubuntu/pacman/obj/Debug/net10.0/pacman.pdb
+/home/ubuntu/pacman/obj/Debug/net10.0/pacman.genruntimeconfig.cache
+/home/ubuntu/pacman/obj/Debug/net10.0/ref/pacman.dll
