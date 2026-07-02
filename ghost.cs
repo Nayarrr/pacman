@@ -13,16 +13,16 @@ public class Ghost : Character
         switch (way)
         {
             case Way.North:
-                this.y --;
-                break;
-            case Way.East:
-                this.x ++;
+                y --;
                 break;
             case Way.South:
-                this.y ++;
+                y ++;
+                break;
+            case Way.East:
+                x ++;
                 break;
             case Way.West:
-                this.x --;
+                x --;
                 break;
         }
     }

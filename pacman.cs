@@ -10,10 +10,5 @@ public class Pacman : Character
         
     }
 
-    public bool isPositionValid()
-    {
-        return false;
-    }
-
 
 }

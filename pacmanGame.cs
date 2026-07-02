@@ -66,4 +66,15 @@ public class PacmanGame
         }
     }
     
-}
+    public bool isPositionValid(int x, int y)
+    {
+        if (GameGrille[x,y] == CaseType.Wall)
+        {
+            return false; 
+        }
+        else
+        {
+            return true;
+        }
+    }
+}       
