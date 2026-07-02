@@ -1,6 +1,7 @@
 public class Character
 {
     public required string name;
+
     public double speed;
 
     public Way way;
@@ -18,9 +19,9 @@ public class Character
         this.y = y;
     }
 
-    public virtual void Move(Way way)
+    public virtual void Move()
     {
-        
+
     }
 
 }

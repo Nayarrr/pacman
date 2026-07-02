@@ -5,7 +5,7 @@ public class Pacman : Character
         
     }
 
-    public override void Move(Way way)
+    public override void Move()
     {
         
     }
