@@ -7,7 +7,21 @@ public class Pacman : Character
 
     public override void Move()
     {
-        
+        if (Console.KeyAvailable)
+        {
+            ConsoleKeyInfo touche = Console.ReadKey(true);
+            switch (touche.Key)
+            {
+                case ConsoleKey.LeftArrow:
+                    break;
+                case ConsoleKey.RightArrow:
+                    break;
+                case ConsoleKey.UpArrow:
+                    break;
+                case ConsoleKey.DownArrow:
+                    break;
+            }
+        }
     }
 
 

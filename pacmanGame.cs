@@ -27,7 +27,7 @@ public class PacmanGame
         }
 
         //Rectangle plein bas
-        for (int i = GameGrille.GetLength(0) - 1; i > GameGrille.GetLength(0) - GameGrille.GetLength(0)/6; i--)
+        for (int i = GameGrille.GetLength(0) - 1; i > GameGrille.GetLength(0) - GameGrille.GetLength(0)/6  - 1; i--)
         {
             GameGrille[i,GameGrille.GetLength(1)/2] = CaseType.Wall;
             GameGrille[i,(GameGrille.GetLength(1)/2)-1] = CaseType.Wall;
@@ -48,22 +48,25 @@ public class PacmanGame
             GameGrille[GameGrille.GetLength(0) - GameGrille.GetLength(0)/3, j] = CaseType.Wall;
         }
 
+        //Rectangles vides des deux cotés
         for (int i = GameGrille.GetLength(0)/3 ; i < GameGrille.GetLength(0) - GameGrille.GetLength(0)/3 + 1; i++)
         {
             GameGrille[i, GameGrille.GetLength(1)/6] = CaseType.Wall;
             GameGrille[i, GameGrille.GetLength(1) - GameGrille.GetLength(1)/6 - 1] = CaseType.Wall;
         }
 
+        //Rectangle central
         for (int j = GameGrille.GetLength(1)/2 - 3; j < GameGrille.GetLength(1)/2 + 3; j++)
         {
             GameGrille[GameGrille.GetLength(0)/3 + 2, j] = CaseType.Wall;
             GameGrille[GameGrille.GetLength(0) - GameGrille.GetLength(0)/3 - 2, j] = CaseType.Wall;
         }
 
-        for (int i = GameGrille.GetLength(0)/3 + 2; i < GameGrille.GetLength(0) - GameGrille.GetLength(0)/3 - 2; i++)
+        //Rectangle central
+        for (int i = GameGrille.GetLength(0)/3 + 2; i < GameGrille.GetLength(0) - GameGrille.GetLength(0)/3 - 1; i++)
         {
-            GameGrille[i, 12] = CaseType.Wall;
-            GameGrille[i, 17] = CaseType.Wall;
+            GameGrille[i, GameGrille.GetLength(1)/2 - 3] = CaseType.Wall;
+            GameGrille[i, GameGrille.GetLength(1)/2 + 3] = CaseType.Wall;
         }
     }
 
