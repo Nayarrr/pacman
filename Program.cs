@@ -3,4 +3,4 @@ Console.CursorVisible = false;
 
 PacmanGame game = new PacmanGame();
 
-game.showGame();
+game.ShowGame();
