@@ -5,22 +5,22 @@ public class Pacman : Character
         
     }
 
-    public override void Move()
+    public override void Move(Way way)
     {
-        if (Console.KeyAvailable)
+        switch (way)
         {
-            ConsoleKeyInfo touche = Console.ReadKey(true);
-            switch (touche.Key)
-            {
-                case ConsoleKey.LeftArrow:
-                    break;
-                case ConsoleKey.RightArrow:
-                    break;
-                case ConsoleKey.UpArrow:
-                    break;
-                case ConsoleKey.DownArrow:
-                    break;
-            }
+            case Way.North:
+                y--;
+                break;
+            case Way.South:
+                y++;
+                break;
+            case Way.East:
+                x--;
+                break;
+            case Way.West:
+                x++;
+                break;
         }
     }
 

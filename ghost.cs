@@ -7,9 +7,9 @@ public class Ghost : Character
         
     }
 
-    public override void Move()
+    public override void Move(Way way)
     {
-        Way way = RandomizeWay();
+        way = RandomizeWay();
         switch (way)
         {
             case Way.North:

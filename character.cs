@@ -19,7 +19,7 @@ public class Character
         this.y = y;
     }
 
-    public virtual void Move()
+    public virtual void Move(Way way)
     {
 
     }
