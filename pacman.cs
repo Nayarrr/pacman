@@ -1,6 +1,6 @@
 public class Pacman : Character
 {
-    public Pacman(string name, int speed, Way way, int x, int y) : base(name, speed, way, x, y)
+    public Pacman(string name, int speed, int x, int y) : base(name, speed, x, y)
     {
         
     }
